@@ -55,7 +55,7 @@ window.addEventListener("scroll", scrollHeader);
 /* SHOW SCROLL TOP */
 function scrollTop() {
   const scrollTop = document.getElementById("scroll-top");
-  if (this.scrollY >= 560) scrollTop.classList.add("scroll-top");
+  if (this.scrollY >= 560) scrollTop.classList.add("show-top");
   else header.classList.remove("show-scroll");
 }
-window.addEventListener("scroll", scrollHeader);
+window.addEventListener("scroll", scrollTop);
