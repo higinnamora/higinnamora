@@ -480,3 +480,35 @@ img {
 .contact__box:hover {
   box-shadow: 0 6px 8px rgba(174, 190, 205, .4);
 }
+
+/* FOOTER */
+.footer {
+  background-color: var(--first-color-dark);
+  color: var(--first-color-lighten);
+  text-align: center;
+} 
+.footer__container {
+  padding: 3rem 0;
+}
+.footer__title {
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-1);
+  font-weight: var(--font-semi-bold);
+}
+.footer__description {
+  margin-bottom: var(--mb-3);
+}
+.footer__social {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.footer__link {
+  color: #fff;
+}
+.footer__link:hover {
+  color: #ccc;
+}
+.footer__copy {
+  font-size: var(--small-font-size);
+  color: var(--first-color-light);
+}
